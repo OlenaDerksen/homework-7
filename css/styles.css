@@ -1,0 +1,121 @@
+.cat {
+  height: 300px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.blocktoinline {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid red;
+  background-color: lightgreen;
+}
+
+.span2 {
+  display: inline-block;
+  width: 100px;
+  height: 130px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid orange;
+  background-color: rgb(29, 185, 237);
+}
+
+img {
+  display: block;
+}
+
+.cat2 {
+  height: 300px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+h1 {
+  color: coral;
+}
+
+h2 {
+  color: rgb(241, 133, 9);
+  position: sticky;
+  top: 90px;
+}
+
+h3 {
+  color: rgb(241, 182, 9);
+}
+
+ul li {
+  display: inline;
+  margin-right: 40px;
+  color: blue;
+}
+
+.reviews {
+  font-style: italic;
+  color: gray;
+}
+
+strong {
+  color: black;
+  font-style: italic;
+  font-size: 20px;
+}
+
+input {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+header {
+  height: 80px;
+  position: fixed;
+  background-color: lightgrey;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+footer {
+  height: 60px;
+  position: fixed;
+  background-color: lightgrey;
+  width: 100%;
+  bottom: 0;
+  z-index: 100;
+}
+
+main {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.position {
+  position: relative;
+  height: 400px;
+}
+
+div {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
