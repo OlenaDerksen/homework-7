@@ -58,3 +58,18 @@
   margin-top: 25px;
   background-color: lightyellow;
 }
+
+footer {
+  height: 60px;
+  position: fixed;
+  background-color: lightgrey;
+  width: 100%;
+  bottom: 0;
+  z-index: 100;
+}
+
+ul li {
+  display: inline;
+  margin-right: 40px;
+  color: blue;
+}
